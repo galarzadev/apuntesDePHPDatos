@@ -1,11 +1,17 @@
 {
-    "name": "usuario/apuntes-de-php-datos",
+    "name": "sagalarzal/apuntes-de-php-datos",
+    "description": "Proyecto de vañlidación",
     "authors": [
         {
             "name": "Sergio Galarza",
             "email": "sergiogalarzalopez@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
     "require-dev": {
         "phpunit/phpunit": "^8.5"
     }
