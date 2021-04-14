@@ -1,0 +1,12 @@
+{
+    "name": "usuario/apuntes-de-php-datos",
+    "authors": [
+        {
+            "name": "Sergio Galarza",
+            "email": "sergiogalarzalopez@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
