@@ -14,6 +14,6 @@ class Validate
     }
     public static function password($value)
     {
-        return (bool) filter_var($value, FILTER_VALIDATE_PASSWORD);
+        return (bool) preg_match('/^[0-9a-zA-Z]{6,9}$/',$value);
     }
 }
